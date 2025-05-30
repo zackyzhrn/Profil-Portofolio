@@ -11029,3 +11029,21 @@ section.resume-section .resume-section-content {
   text-align: center;
   margin-top: 0.25rem;
 }
+
+#licenceGallery img,
+#experienceGallery img {
+  border: 2px solid #bd5d38;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  /* Hapus atau ganti efek shadow berat */
+}
+#licenceGallery img:hover,
+#experienceGallery img:hover {
+  /* Gunakan shadow ringan atau hilangkan */
+  box-shadow: 0 2px 8px rgba(189,93,56,0.08);
+}
+
+#imgModalSrc {
+  box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+}
